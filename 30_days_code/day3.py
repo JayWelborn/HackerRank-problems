@@ -1,19 +1,13 @@
-def get_total_cost_of_meal():
-    # original meal price
-    meal_cost = float(input())
-    # tip percentage
-    tip_percent = int(input())
-    # tax percentage
-    tax_percent = int(input())
+N = int(input().strip())
 
-    # Write your calculation code here
-    tip = # calculate tip
-    tax = # caclulate tax
-
-    # cast the result of the rounding operation to an int and save it as total_cost 
-    total_cost = int(round("""write your total cost calculation here"""))
+if N % 2 != 0:
+    print("Weird")
     
-    return str(total_cost)
-
-# Print your result
-print("The total meal cost is " + get_total_cost_of_meal() + " dollars.")
+elif 2 <= N <= 5:
+    print("Not Weird")
+    
+elif 6 <= N <= 20:
+    print("Weird")
+    
+else:
+    print("Not Weird")

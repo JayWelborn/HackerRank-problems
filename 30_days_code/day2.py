@@ -1,17 +1,19 @@
+def get_total_cost_of_meal():
+    # original meal price
+    meal_cost = float(input())
+    # tip percentage
+    tip_percent = int(input())
+    # tax percentage
+    tax_percent = int(input())
 
-# Declare second integer, double, and String variables.
-# Not needed. Thanks, Python!
-# Read and save an integer, double, and String to your variables.
-i2 = int(input())
-d2 = float(input())
-s2 = str(input())
+    # Write your calculation code here
+    tip = # calculate tip
+    tax = # caclulate tax
 
-# Print the sum of both integer variables on a new line.
-print(i + i2)
+    # cast the result of the rounding operation to an int and save it as total_cost 
+    total_cost = int(round("""write your total cost calculation here"""))
+    
+    return str(total_cost)
 
-# Print the sum of the double variables on a new line.
-print (d + d2)
-
-# Concatenate and print the String variables on a new line
-# The 's' variable above should be printed first.
-print(s + s2)
+# Print your result
+print("The total meal cost is " + get_total_cost_of_meal() + " dollars.")

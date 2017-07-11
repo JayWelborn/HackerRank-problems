@@ -1,4 +1,8 @@
-n = int(input().strip())
+total_words = int(input())
 
-for i in range (1, 11):
-    print("{n} x {i} = {result}".format(n=n, i=i, result=i*n))
+for _ in range(total_words):
+    word = input()
+    even = word[0::2]
+    odd = word[1::2]
+   
+    print(even + ' ' + odd)
