@@ -1,2 +1,4 @@
 /hackerenv/
 *.pyc
+*.sublime-project
+*.sublime-workspace
