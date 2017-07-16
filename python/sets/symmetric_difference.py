@@ -1,12 +1,12 @@
 a = int(input())
 
 # make first set
-M = set(list(map(int, input().split())))
+M = set(map(int, input().split()))
 
 b = int(input())
 
 # make second set
-N = set(list(map(int, input().split())))
+N = set(map(int, input().split()))
 
 # get difference
 diff_1 = list(M.difference(N))
