@@ -1,4 +1,12 @@
+""" Project Euler #1
 
+This code finds the sum off all numbers divisible by 3 or five below a given
+number (n). To avoid iterating through large values, we use the sum of the
+arithmetic sequences with (d) of 3 or 5, then subtract the sequence with (d) of
+15 to avoid counting numbers twice.
+
+https://www.mathsisfun.com/algebra/sequences-sums-arithmetic.html
+"""
 t = int(input().strip())
 for a0 in range(t):
     n = int(input().strip())
