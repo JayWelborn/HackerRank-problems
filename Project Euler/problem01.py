@@ -7,6 +7,7 @@ arithmetic sequences with (d) of 3 or 5, then subtract the sequence with (d) of
 
 https://www.mathsisfun.com/algebra/sequences-sums-arithmetic.html
 """
+
 t = int(input().strip())
 for a0 in range(t):
     n = int(input().strip())
@@ -35,4 +36,3 @@ for a0 in range(t):
     sum15 = (15 * fifteens * (fifteens + 1)) // 2
 
     print(sum3 + sum5 - sum15)
-

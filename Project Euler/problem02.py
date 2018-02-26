@@ -4,9 +4,9 @@ This code snippet finds the sum of all even Fibonacci numbers below
 given number (n).
 """
 
-t = int(input().strip())
+t = int(input())
 for a0 in range(t):
-    n = int(input().strip())
+    n = int(input())
     even_sum = 0
     a = 0
     b = 1
