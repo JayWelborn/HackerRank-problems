@@ -2,7 +2,6 @@ def main():
     length = int(input())
     digits = input()
     limit = int(digits.replace(' ', '9'))
-    print(magic_square(digits, limit, length))
 
 
 def magic_square(digits: str, limit: int, length: int) -> int:
