@@ -1,0 +1,15 @@
+num_shoes = int(input())
+sizes = [int(x) for x in input().split(' ')]
+
+customers = int(input())
+profit = 0
+
+for customer in range(customers):
+    info = input().split(' ')
+    size = int(info[0])
+    price = int(info[1])
+    if size in sizes:
+        sizes.remove(size)
+        profit += price
+        
+print(profit)
