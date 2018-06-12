@@ -7,8 +7,8 @@ import sys
 # Complete the handshake function below.
 #
 def handshake(n):
-    people = [x for x in range(n)]
-    return sum(people)
+    n -= 1
+    return n * (n + 1) // 2
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
