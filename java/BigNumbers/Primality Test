@@ -1,0 +1,22 @@
+import java.io.*;
+import java.math.*;
+import java.util.*;
+
+public class Solution {
+
+
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        BigInteger n = new BigInteger(scanner.nextLine());
+
+        if (n.isProbablePrime(10)) {
+            System.out.println("prime");
+        } else {
+            System.out.println("not prime");
+        }
+        
+        scanner.close();
+    }
+}
